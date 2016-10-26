@@ -2,10 +2,14 @@
 
 This project contains examples web applications build with Puko Framework. Examples includes:
 
-- [ ] Puko Template Engine Basics
-- [ ] Puko Docs Command Basics
+- [X] Puko Template Engine Basics
+- [X] Puko Docs Command Basics
 - [X] Registration, Login & Logout
 - [ ] Multiple File Upload
+- [ ] E-Shopping Cart
+- [ ] E-Ticketing Applications
+- [ ] E-Elections
+- [ ] Todo Apps (Service)
 
 ## Install
 
