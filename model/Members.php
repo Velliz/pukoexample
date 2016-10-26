@@ -26,6 +26,11 @@ class Members
         return DBI::Prepare("SELECT * FROM `members` WHERE `id` = @1")->GetData($id);
     }
 
+    public static function GetData($email, $password)
+    {
+        return DBI::Prepare("SELECT * FROM `members` WHERE (`email` = @1) AND (`password` = @2)")->GetData($email, $password);
+    }
+
     public static function CountAll()
     {
         return DBI::Prepare("SELECT COUNT(*) total FROM `members`;")->GetData();
