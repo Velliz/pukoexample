@@ -1,2 +1,0 @@
-# pukoexample
-Puko Framework [Example]
