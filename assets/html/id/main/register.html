@@ -1,0 +1,23 @@
+<div class="container">
+    <h3>Register Form</h3>
+
+    <p>Total member registered: {!total}</p>
+
+    <!-- submit form to self method url -->
+    <form action="" method="post">
+        <!-- every form post needs to have a valid tokens -->
+        <input type="hidden" name="token" value="{!token}">
+
+        <input class="form-control input-lg" type="text" name="name" placeholder="Full Name" required> <br>
+        <input class="form-control input-lg" type="email" name="email" placeholder="Email Address" required> <br>
+
+        <p>Physical Address</p>
+        <textarea class="form-control input-lg" name="address" cols="10" rows="5" required></textarea> <br>
+
+        <input class="form-control input-lg" type="password" name="password" placeholder="Password" required> <br>
+
+        <!-- every form post needs to have a action buttons with name _submit -->
+        <input class="btn btn-primary" type="submit" name="_submit" value="Register">
+        <input class="btn btn-danger" type="reset" name="reset" value="Reset">
+    </form>
+</div>
