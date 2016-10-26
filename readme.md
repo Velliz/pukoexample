@@ -4,7 +4,7 @@ This project contains examples web applications build with Puko Framework. Examp
 
 - [ ] Puko Template Engine Basics
 - [ ] Puko Docs Command Basics
-- [ ] Registration, Login & Logout
+- [X] Registration, Login & Logout
 - [ ] Multiple File Upload
 
 ## Install

@@ -1,3 +1,46 @@
-<h1>Welcome to puko framework</h1>
-<p>Congratulations! if you see this page, you're successfully install & configure Puko Framework</p>
-<p>Online documentation & tutorial <a href="https://velliz.github.io/pukodocs/">here</a></p>
+<div class="container">
+    <h1 class="text-center">Welcome to puko framework</h1>
+
+    <p class="text-center">This project contains example project build by Puko Framework</p>
+
+    <table class="table table">
+        <thead>
+        <tr>
+            <th>Example</th>
+            <th>Description</th>
+            <th>Showcase</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Registration</td>
+            <td><p>Sample POST data with secure token and _submit</p></td>
+            <td><a class="btn btn-sm btn-primary" href="{URL}register">demo</a></td>
+        </tr>
+        <tr>
+            <td>Login</td>
+            <td>
+                <p>Sample implementing Auth interface</p>
+                <pre>class main extends View implements Auth</pre>
+            </td>
+            <td><a class="btn btn-sm btn-primary" href="{URL}login">demo</a></td>
+        </tr>
+        <tr>
+            <td>Logout</td>
+            <td>-</td>
+            <td><a class="btn btn-sm btn-primary" href="{URL}logout">demo</a></td>
+        </tr>
+        <tr>
+            <td>Authenticated Page</td>
+            <td>
+                <p>Sample using PDC keywords</p>
+                <pre>#Auth true</pre> Required login before enter to the page
+            </td>
+            <td><a class="btn btn-sm btn-primary" href="{URL}home">demo</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p class="text-center">Online documentation & tutorial <a href="https://velliz.github.io/pukodocs/">here</a></p>
+    <p class="text-center">Copyright &copy; 2016 - Didit Velliz</p>
+</div>
