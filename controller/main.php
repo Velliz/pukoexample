@@ -21,6 +21,7 @@ class main extends View implements Auth
 
     /**
      * #Value PageTitle Registrasi Member Baru
+     * #DisplayException false
      */
     public function register()
     {
