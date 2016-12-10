@@ -9,8 +9,10 @@ This project contains examples web applications build with Puko Framework. Examp
 - [ ] E-Shopping Cart
 - [ ] E-Ticketing Applications
 - [ ] E-Elections
+- [ ] Event Registrations
 - [ ] Todo Apps (Service)
 - [ ] Anywhere API
+- [ ] Floors API
 
 ## Install
 
