@@ -7,7 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 $framework = new \pukoframework\Framework();
 $framework->RouteMapping(array(
     'view/member/profile' => 'view/member/profile',
-    'register/user' => 'main/register',
+    'register' => 'main/register',
     'login' => 'main/e_login',
     'home' => 'main/home',
     'logout' => 'main/e_logout',

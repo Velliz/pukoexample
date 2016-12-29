@@ -21,6 +21,8 @@ Download zip package or clone and setup dependency via composer:
 composer install
 ```
 
+Then you can import inclided database **pukoexample.sql** into MySQL/MariaDB.
+
 Usage and Sample you can see it in [Documentation](https://velliz.github.io/pukodocs)
 
 ## About
