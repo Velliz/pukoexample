@@ -8,6 +8,12 @@ use pukoframework\pda\DBI;
 use pukoframework\pte\View;
 use pukoframework\Request;
 
+/**
+ * Class main
+ * @package controller
+ *
+ * #ClearOutput true
+ */
 class main extends View implements Auth
 {
 
