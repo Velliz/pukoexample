@@ -13,6 +13,7 @@ use pukoframework\Request;
  * @package controller
  *
  * #ClearOutput true
+ * #Master master_basic.html
  */
 class main extends View implements Auth
 {
