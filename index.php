@@ -12,4 +12,6 @@ $framework->RouteMapping(array(
     'home' => 'main/home',
     'logout' => 'main/e_logout',
 ));
+
+
 $framework->Start();
